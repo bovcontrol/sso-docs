@@ -9,7 +9,7 @@ Uma vez recebida as chaves, basta inserir uma div com o id ssobov, seguida dos a
 Um botão será inserido em sua aplicação e uma vez que o usuário faça o login no Bovcontrol, um token será enviado junto com o callback. Com esse token, é possível acessar a página do usuário e coletar algumas informações como nome e email.
 
 ## Acessando a página do usuário
-Uma vez recebido o token do usuário, sua aplicação pode acessar o endereço https://api.bovcontrol.com/me/v1/<clientId>/ (Subistitua o <ClientId> pelo Id recebido), enviando no headers o token do usuário.
+Uma vez recebido o token do usuário, sua aplicação pode acessar o endereço https://api.bovcontrol.com/me/v1/clientId/ (Subistitua o <ClientId> pelo Id recebido), enviando no headers o token do usuário.
 
 A resposta será no seguinte formato:
 ```json
